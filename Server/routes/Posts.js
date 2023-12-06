@@ -27,7 +27,7 @@ router.get("/byuserId/:id", async (req, res) => {
 
 
 router.post("/", validateToken, async (req, res) => {
-  const title = req.body;
+  const post = req.body;
   post.username = req.user.username;
   post.UserId = req.user.id;
   await Posts.create(post);
