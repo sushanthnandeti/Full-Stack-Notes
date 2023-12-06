@@ -27,6 +27,27 @@ router.get("/byuserId/:id", async (req, res) => {
 
 
 router.post("/", validateToken, async (req, res) => {
+  const title = req.body;
+  post.username = req.user.username;
+  post.UserId = req.user.id;
+  await Posts.create(post);
+  res.json(post);
+});
+
+router.put("/title", validateToken, async (req, res) => {
+  const {newTitle,id} = req.body;
+  await Posts.update({title:newTitle},{where : {id:id}})
+  res.json(newTitle);
+});
+
+
+router.put("/postText", validateToken, async (req, res) => {
+  const {newText,id} = req.body;
+  await Posts.update({title:newText},{where : {id:id}})
+  res.json(newText);
+});
+
+router.put("/", validateToken, async (req, res) => {
   const post = req.body;
   post.username = req.user.username;
   post.UserId = req.user.id;
@@ -45,3 +66,4 @@ router.delete("/:postId", validateToken, async (req, res) => {
 });
 
 module.exports = router;
+
