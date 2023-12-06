@@ -1,0 +1,6 @@
+Modifications: 
+
+Styling, 
+Use of bcryprt for hashing passwords to store in the database, 
+use of useNavigate instead of use history, 
+modification of useEffect hook to reduce the number of API calls and render the page once. 

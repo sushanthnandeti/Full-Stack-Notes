@@ -1,16 +1,23 @@
 import React from 'react'
 import axios from "axios";
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState} from "react";
+import { useNavigate, Link } from "react-router-dom";
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+//import { AuthContext } from '../helpers/AuthContext';
 
 function Home() {
   
   const [listOfPosts, setListOfPosts] = useState([]);
   const [likedPosts, setLikedPosts] = useState([]);
+  //const {authState} = useContext(AuthContext);
   let navigate = useNavigate();
 
   useEffect(()=>{
+
+    if (!localStorage.getItem("accessToken")) {
+      navigate('/login');
+    } 
+    else {
     axios.get('http://localhost:3001/posts', { headers: {accessToken: localStorage.getItem("accessToken")}})
     .then((response) => {
       setListOfPosts(response.data.listOfPosts);
@@ -18,7 +25,8 @@ function Home() {
         return like.PostId;
       })
       );
-    });
+    }); 
+    }
   }, []);
 
   const likeAPost = (postId) => {
@@ -71,7 +79,7 @@ function Home() {
             }}>   {value.postText}  </div>
 
                 <div className="footer">   
-                  {value.username}  
+                <Link to ={`/profile/${value.UserId}`}> {value.username}  </Link> 
                 <div className="buttons">
       
                   <ThumbUpIcon onClick={()=>{likeAPost(value.id)}} 
