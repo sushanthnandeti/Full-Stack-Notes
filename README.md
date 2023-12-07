@@ -83,13 +83,13 @@ https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/8a636229-d8a
 ### Additional implementations include security of the accesstokens in the localstorage of the browsers. 
 
 
-![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6dc99d25-435e-4dc1-9eac-ce530442cb8d)
 
 
 
 ## Video Walkthrough: 
 
 
+![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6dc99d25-435e-4dc1-9eac-ce530442cb8d)
 
 
 ### SequelizeJS has been used as the ORM for the project. 
