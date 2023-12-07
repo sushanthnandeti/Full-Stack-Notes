@@ -40,6 +40,22 @@
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/989f3f68-aaff-4ba1-b561-e007961600a7)
 
 
+### User will logged out upon clicking the logout button: 
 
+![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/2a01e891-5e22-47f1-804b-15198b4463dd)
+
+
+# Technical Specifications: 
+
+### The application used ReactJS for its front end and Nodejs and express for the backend. Front end is hosted on Vercel and the backend is hosted on heroku platform. MySQL database (JawsDB) is used as the primary database.
+
+## Additional Features:
+
+### bcryptjs library is used to hash the password stored in th database. This has been implemented to improve the securiy of the users. Additional implementations include security of the accesstokens in the localstorage of the browsers. 
+
+![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6dc99d25-435e-4dc1-9eac-ce530442cb8d)
+
+### SequelizeJS has been used as the ORM for the project. 
+### Formik Library has been used for form validations on the front end. 
 
 
