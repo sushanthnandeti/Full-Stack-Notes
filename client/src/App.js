@@ -12,6 +12,7 @@ import PageNotFound from './Pages/PageNotFound';
 import Profile  from './Pages/Profile';
 import ChangePassword  from './Pages/ChangePassword';
 
+
 function App() {
 
   const [authState, setAuthState] = useState({
@@ -21,7 +22,7 @@ function App() {
   });
 
   useEffect(() => {
-    axios.get("http://localhost:3001/auth/auth", {
+    axios.get("https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/auth/auth", {
     headers: { 
       accessToken: localStorage.getItem("accessToken"),
   },
@@ -51,7 +52,7 @@ function App() {
     });
   }
 
-
+  const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
   return (
     <div className="App">   
@@ -88,7 +89,7 @@ function App() {
                 <Route path="/profile/:id" exact Component={Profile}  />
                 <Route path="*" exact Component={PageNotFound}  />
           </Routes>
-
+          
         </Router>
     </AuthContext.Provider>
     </div>

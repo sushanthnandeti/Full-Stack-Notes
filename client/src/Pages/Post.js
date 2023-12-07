@@ -13,18 +13,18 @@ function Post() {
   let navigate = useNavigate();
 
   useEffect(()=>{
-    axios.get(`http://localhost:3001/posts/byid/${id}`).then((response) => {
+    axios.get(`https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/posts/byid/${id}`).then((response) => {
           setPostObject(response.data);
     });
 
-    axios.get(`http://localhost:3001/comments/${id}`).then((response) => {
+    axios.get(`https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/comments/${id}`).then((response) => {
           setComments(response.data);
     });
   
 }, [id]);
 
   const addComment = () => {
-      axios.post("http://localhost:3001/comments", {commentBody: newComment , PostId: id
+      axios.post("https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/comments", {commentBody: newComment , PostId: id
               },
               {
                 headers: {
@@ -46,7 +46,7 @@ function Post() {
   };
 
   const deleteComment = (id) => {
-      axios.delete(`http://localhost:3001/comments/${id}`, 
+      axios.delete(`https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/comments/${id}`, 
       {headers: {accessToken: localStorage.getItem("accessToken")},
     }).then(()=>{
         setComments(
@@ -60,7 +60,7 @@ function Post() {
   const editPost = (option) => {
       if (option=== "title"){
           let newTitle = prompt("Enter new Title:");
-          axios.put("http://localhost:3001/posts/title", 
+          axios.put("https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/posts/title", 
           {newTitle:newTitle, id: id}, {headers: {accessToken: localStorage.getItem("accessToken")},
         });
 
@@ -68,7 +68,7 @@ function Post() {
       }   
       else {
         let newPostText = prompt("Enter new body Text:");
-        axios.put("http://localhost:3001/posts/postText", 
+        axios.put("https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/posts/postText", 
           {newText:newPostText, id: id}, {headers: {accessToken: localStorage.getItem("accessToken")},
       });
       setPostObject({...postObject, postText : newPostText})
@@ -77,7 +77,7 @@ function Post() {
   }
 
   const deletePost = (id) => {
-      axios.delete(`http://localhost:3001/posts/${id}`, 
+      axios.delete(`https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/posts/${id}`, 
       {headers: {accessToken: localStorage.getItem("accessToken")},
     }).then(()=>{
         navigate("/");  
