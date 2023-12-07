@@ -22,6 +22,13 @@
 
 ### You can create a post by entering the title of the post and the body of the post. Click on create post button to post your note. You will be redirected to the homepage upon successful submission. 
 
+## Adding Comments to Post: 
+
+### You can add your comments to any posts. 
+
+![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/5979e558-e4ae-46ce-a288-1c75d2ac94e4)
+
+
 ## Liking Feature:
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/775de752-635e-415e-8068-64d032c9713a)
 
@@ -39,8 +46,14 @@
 
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/989f3f68-aaff-4ba1-b561-e007961600a7)
 
+## Modify your own Posts:
 
-## User will logged out upon clicking the logout button: 
+### You can Modify your own Posts by clicking on the title or body section of the post. 
+
+![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/60291926-915d-4f4e-a55d-7607c31deb2e)
+
+
+## Logout: User will logged out upon clicking the logout button: 
 
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/2a01e891-5e22-47f1-804b-15198b4463dd)
 
