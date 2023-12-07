@@ -61,8 +61,6 @@
 # Technical Specifications: 
 
 
-https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/076f917c-f169-409b-9402-502c475e44c7
-
 
 ### The application used ReactJS for its front end and Nodejs and express for the backend. 
 
@@ -79,6 +77,14 @@ https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/076f917c-f16
 
 ### Additional implementations include security of the accesstokens in the localstorage of the browsers. 
 
+### SequelizeJS has been used as the ORM for the project. 
+
+### Formik Library has been used for form validations on the front end. 
+
+
+
+
+
 
 
 
@@ -86,9 +92,6 @@ https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/076f917c-f16
 ## Video Walkthrough: 
 
 
-![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6dc99d25-435e-4dc1-9eac-ce530442cb8d)
+https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6f388ba0-a3ed-45cc-b486-73cd5c3123f8
 
 
-### SequelizeJS has been used as the ORM for the project. 
-
-### Formik Library has been used for form validations on the front end. 
