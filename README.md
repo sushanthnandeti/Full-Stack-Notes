@@ -70,9 +70,6 @@ https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/076f917c-f16
 
 ###  MySQL database (JawsDB) is used as the primary database.
 
-https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/8a636229-d8a3-43e6-adc0-869b7d6e5f28
-
-
 
 
 
