@@ -31,7 +31,7 @@
 
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/63310832-c8e4-41d3-83ed-e66979783516)
 
-#### You can comment on different posts. You can also delete your own posts and comments. 
+### You can comment on different posts. You can also delete your own posts and comments. 
 
 ## User Profile Page: 
 
@@ -50,7 +50,9 @@
 ### The application used ReactJS for its front end and Nodejs and express for the backend. 
 
 ### The Front end of the application is hosted on Vercel and the backend is hosted on heroku platform.
+
 ###  MySQL database (JawsDB) is used as the primary database.
+
 
 ## Additional Features:
 
@@ -61,4 +63,5 @@
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6dc99d25-435e-4dc1-9eac-ce530442cb8d)
 
 ### SequelizeJS has been used as the ORM for the project. 
+
 ### Formik Library has been used for form validations on the front end. 
