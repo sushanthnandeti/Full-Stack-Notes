@@ -1,5 +1,4 @@
-# [\<mark>] 
-Full-Stack-PostIt-Notes-Application 
+# Full-Stack-PostIt-Notes-Application 
 
 
 ## Usage of the Application:
