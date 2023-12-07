@@ -60,11 +60,20 @@
 
 # Technical Specifications: 
 
+
+https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/076f917c-f169-409b-9402-502c475e44c7
+
+
 ### The application used ReactJS for its front end and Nodejs and express for the backend. 
 
 ### The Front end of the application is hosted on Vercel and the backend is hosted on heroku platform.
 
 ###  MySQL database (JawsDB) is used as the primary database.
+
+https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/8a636229-d8a3-43e6-adc0-869b7d6e5f28
+
+
+
 
 
 ## Additional Features:
@@ -75,6 +84,12 @@
 
 
 ![image](https://github.com/sushanthnandeti/Full-Stack-Notes/assets/62721296/6dc99d25-435e-4dc1-9eac-ce530442cb8d)
+
+
+
+## Video Walkthrough: 
+
+
 
 
 ### SequelizeJS has been used as the ORM for the project. 
