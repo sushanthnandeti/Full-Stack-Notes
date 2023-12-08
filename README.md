@@ -1,4 +1,4 @@
-# Full-Stack-PostIt-Notes-Application 
+# Full-Stack-Post-it-Notes-Application 
 
 
 ## Usage of the Application:
