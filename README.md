@@ -73,7 +73,7 @@
 
 ## Additional Features:
 
-### bcryptjs library is used to hash the password stored in th database. This has been implemented to improve the securiy of the users. 
+### bcryptjs library is used to hash the password stored in th database. This has been implemented to improve the security of the users. 
 
 ### Additional implementations include security of the accesstokens in the localstorage of the browsers. 
 
