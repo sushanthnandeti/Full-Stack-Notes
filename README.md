@@ -1,6 +1,13 @@
 # Full-Stack-Post-it-Notes-Application 
 
 
+### The Post-It-Notes application integrates a range of functionalities to enable users to create and explore posts. Leveraging ReactJS for the frontend, and Node.js with Express for the backend, the application ensures a responsive and engaging user interface. 
+
+### The application also uses Sequelize ORM to interact with Jaws MySQL database. The deployment is handled efficiently, with the frontend hosted on Vercel and the backend on Heroku following the CI/CD pipeline.
+
+***
+
+
 ## Usage of the Application:
 
 ## Registration Page:
