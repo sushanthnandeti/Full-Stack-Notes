@@ -8,7 +8,7 @@
 ***
 
 
-## Usage of the Application:
+## Usage of the Application: (Steps) 
 
 ## Registration Page:
 
