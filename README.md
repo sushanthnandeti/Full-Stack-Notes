@@ -6,7 +6,9 @@
 ### The application also uses Sequelize ORM to interact with Jaws MySQL database. The deployment is handled efficiently, with the frontend hosted on Vercel and the backend on Heroku following the CI/CD pipeline.
 
 ***
+### Video Walkthrough:
 
+# https://www.youtube.com/watch?v=VTYVxxqvnDQ
 
 ## Usage of the Application: (Steps) 
 
